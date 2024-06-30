@@ -36,8 +36,8 @@ node chapmunx.mjs [options]
 
 - `-i, --inputFile <inputFile>`: Specify the input video file (.mp4). This option is required.
 - `-t, --trackList <trackList>`: Specify the tracklist file (.txt). Will default to input filename but with txt extension.
-`-d, --dryRun`: Run the command in dry run mode without making any changes.
-`-v, --verbose`: Enable verbose logging for detailed output.
+- `-d, --dryRun`: Run the command in dry run mode without making any changes.
+- `-v, --verbose`: Enable verbose logging for detailed output.
 
 ### Example Command
 
