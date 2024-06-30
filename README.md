@@ -26,7 +26,7 @@ ffmpeg -f lavfi -i color=c=red@0.2:duration=360:s=1280x720:r=10 ./test/testinput
 To test the `chapmux` functionality:
 
 ```shell
-node combine-chapters-and-video.mjs -i ./test/testinput.mp4 -t ./test/tracklist.txt
+node src/chapmux.mjs -i test/testinput.mp4 -t test/tracklist.txt
 ```
 
 Feel free to let me know if you need any further improvements!
