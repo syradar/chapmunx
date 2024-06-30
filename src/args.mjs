@@ -3,7 +3,7 @@ import { changeExtension } from "./file.mjs";
 
 function printUsage() {
 	console.log(`
-			Usage: node chapmux.mjs [options]
+			Usage: node chapmunx.mjs [options]
 			
 			Options:
 			-i, --inputFile <inputFile>        Specify the input video file (.mp4)

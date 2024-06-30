@@ -29,7 +29,7 @@ MM:SS Chapter Title
 To add chapters to your MP4 file, use the following command syntax:
 
 ```shell
-node chapmux.mjs [options]
+node chapmunx.mjs [options]
 ```
 
 ### Options
@@ -42,7 +42,7 @@ node chapmux.mjs [options]
 ### Example Command
 
 ```shell
-node chapmux.mjs -i path/to/your/video.mp4
+node chapmunx.mjs -i path/to/your/video.mp4
 ```
 
 ## 📚 Testing
@@ -57,12 +57,12 @@ This will generate a test MP4 file:
 ffmpeg -f lavfi -i color=c=red@0.2:duration=360:s=1280x720:r=10 ./test/testinput.mp4
 ```
 
-### 🔍 Testing `chapmux`
+### 🔍 Testing `chapmunx`
 
-To test the `chapmux` functionality:
+To test the `chapmunx` functionality:
 
 ```shell
-node src/chapmux.mjs -i test/testinput.mp4 -t test/tracklist.txt
+node src/chapmunx.mjs -i test/testinput.mp4 -t test/tracklist.txt
 ```
 
 Feel free to let me know if you need any further improvements!

@@ -1,11 +1,11 @@
 import { parseArguments } from "./args.mjs";
 import { createChapterMetadataFile } from "./chapter.mjs";
 import { createOutputFilename } from "./file.mjs";
-import { ChapmuxLogger } from "./log.mjs";
+import { ChapmunxLogger } from "./log.mjs";
 import { getInputDuration, muxChapters } from "./media.mjs";
 
 const { dryRun, inputFile, trackList, verbose } = parseArguments();
-const logger = new ChapmuxLogger(verbose);
+const logger = new ChapmunxLogger(verbose);
 const context = { dryRun, verbose, logger };
 
 try {

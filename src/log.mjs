@@ -1,6 +1,6 @@
 import { styleText } from "node:util";
 
-export class ChapmuxLogger {
+export class ChapmunxLogger {
 	constructor(verbose) {
 		this.verbose = verbose;
 	}
