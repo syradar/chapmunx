@@ -64,5 +64,3 @@ To test the `chapmunx` functionality:
 ```shell
 node src/chapmunx.mjs -i test/testinput.mp4 -t test/tracklist.txt
 ```
-
-Feel free to let me know if you need any further improvements!
