@@ -1,4 +1,4 @@
-# 📜 chapmux
+# 🐿️ chapmunx
 
 Add chapters to MP4 files based on a track list.
 
