@@ -11,7 +11,7 @@ Add chapters to MP4 files based on a track list.
 
 Your tracklist should be a plain text file (.txt) where each line specifies a chapter with its start time and title in the format:
 
-``plaintext
+```plaintext
 HH:MM:SS Chapter Title
 MM:SS Chapter Title
 ```
