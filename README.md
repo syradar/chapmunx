@@ -1,6 +1,6 @@
 # 🐿️ chapmunx
 
-Add chapters to MP4 files based on a track list.
+Add chapters to video files based on a track list.
 
 ## ⚙️ Requirements
 
@@ -64,3 +64,8 @@ To test the `chapmunx` functionality:
 ```shell
 node src/chapmunx.mjs -i test/testinput.mp4 -t test/tracklist.txt
 ```
+
+## Further reading
+
+- [FFMETADATA](https://ffmpeg.org/ffmpeg-formats.html#Metadata-2)
+- 
