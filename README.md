@@ -2,6 +2,9 @@
 
 Add chapters to video files based on a track list.
 
+Example showing song chapters in a video file in the app IINA:
+![image](https://github.com/user-attachments/assets/80aa75c0-d97a-4b49-aa04-6ff2e0c81ac2)
+
 ## ⚙️ Requirements
 
 - [node](https://nodejs.org) >= 22
@@ -9,11 +12,11 @@ Add chapters to video files based on a track list.
 
 ## 📄 Tracklist Format
 
-Your tracklist should be a plain text file (.txt) where each line specifies a chapter with its start time and title in the format:
+Your tracklist should be a plain text file (.txt) where each line specifies a chapter with its start time and title in the specified format, hours are optional.
 
 ```plaintext
-HH:MM:SS Chapter Title
 MM:SS Chapter Title
+HH:MM:SS Chapter Title
 ```
 
 ### Example Tracklist
